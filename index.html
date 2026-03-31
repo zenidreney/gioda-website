@@ -1,52 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Simple Responsive Template</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gioda SAS</title>
 </head>
-
 <body>
-    <div>
-        <!-- Header -->
-        <header>
-            <h1>Your Site Title</h1>
-        </header>
+  <header>
+    <h1>Gioda SAS</h1>
 
-        <main>
-            <!-- Image 1 -->
-            <div>
-                Image 1 (hero)
-            </div>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/photos">Photos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <!-- Image 2 -->
-            <div>
-                Image 2 (secondary)
-            </div>
+  <main>
+    <section aria-label="Featured images">
+      <img src="image-1.jpg" alt="Description of  1" />
+      <img src="image-2.jpg" alt="Description of  2" />
 
-            <!-- Heading + text block 1 -->
-            <section>
-                <h2>First Heading</h2>
-                <p>
+      <div class="decorative-image" aria-hidden="true"></div>
+    </section>
 
-                </p>
-            </section>
+    <section aria-label="Content block one">
+      <h2>Section Title One</h2>
+      <p>Your paragraph text goes here.</p>
+    </section>
 
-            <!-- Heading + text block 2 -->
-            <section>
-                <h2>Second Heading</h2>
-                <p>
+    <section aria-label="Content block two">
+      <h2>Section Title Two</h2>
+      <p>Your paragraph text goes here.</p>
+    </section>
 
-                </p>
-            </section>
-        </main>
+    <div class="wave wave-1" aria-hidden="true"></div>
+    <div class="wave wave-2" aria-hidden="true"></div>
+  </main>
 
-        <!-- Footer -->
-        <footer>
-
-        </footer>
-    </div>
+  <footer>
+    <address>
+      <p>📞 <a href="tel:+1234567890">+1 234 567 890</a></p>
+      <p>📍 123 Main Street, City, Country</p>
+      <p>✉️ <a href="mailto:hello@example.com">hello@example.com</a></p>
+    </address>
+  </footer>
 </body>
-
 </html>

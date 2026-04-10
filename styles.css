@@ -9,15 +9,25 @@
     --border-radius: 4px;
 }
 
+html {
+
+    background-color: #2b4257;
+}
+
 body {
-    background-color: #f8f3f3;
     font-family: "Nunito", sans-serif;
+    background-color: #f2f1eb;
     max-width: 900px;
     margin: 0.3em auto;
     border: 1px solid #2b4257;
     border-radius: var(--border-radius);
 
+    position: relative;
+    z-index: 2;
+
 }
+
+
 
 /* Elements */
 

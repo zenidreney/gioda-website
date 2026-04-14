@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <style>
+
+    </style>
+
+    <link rel="stylesheet" href="alternative-styles.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav
+        style="position: sticky; top: 0; z-index: 120; background-color: rgba(251, 249, 245, 0.9); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(0,0,0,0.05);">
+        <div class="container nav-content">
+            <a class="logo" href="#">Gioda SAS</a>
+            <div class="nav-links">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">Foto</a>
+                <button type="button" class="btn-contact">Contact Us</button>
+            </div>
+            <button type="button" class="mobile-menu-btn" id="menuBtn">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+    </nav>
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav" id="mobileNav">
+        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link" href="#">Foto</a>
+        <button type="button" class="btn-contact">Contact Us</button>
+    </div>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text-area">
+                    <span class="hero-label">Servizio di Noleggio con Conducente</span>
+                    <h1 class="hero-title">Gioda SAS</h1>
+                    <p class="hero-subtitle">di Gioda Marco</p>
+                    <p class="hero-description">
+                        Professionalità, puntualità e comfort per i vostri spostamenti. Operiamo con una flotta dedicata
+                        per ogni esigenza di viaggio, garantendo un'esperienza di classe superiore.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn-call" href="tel:+393385072211">
+                            <span class="material-symbols-outlined">phone</span>
+                            Chiama Ora
+                        </a>
+                        <div class="location-tag">
+                            <span class="material-symbols-outlined" style="color: var(--primary)">location_on</span>
+                            <span>Ferrere, Asti</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img alt="Luxury minibus service in Piedmont" src="/media/gioda-driving.jpeg" />
+                    <div class="hero-image-overlay"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Vehicle Fleet Section -->
+        <section class="fleet">
+            <div class="container">
+                <div class="fleet-header">
+                    <div class="fleet-title-area">
+                        <h2 class="fleet-title">Noleggio con Conducente</h2>
+                        <p class="fleet-subtitle">La nostra flotta è composta da mezzi moderni e costantemente
+                            revisionati per offrire il massimo della sicurezza e del relax.</p>
+                    </div>
+                    <div class="fleet-tags">
+                        <div class="tag-pill">
+                            <span class="material-symbols-outlined">group</span>
+                            7 Posti
+                        </div>
+                        <div class="tag-pill">
+                            <span class="material-symbols-outlined">groups</span>
+                            16 Posti
+                        </div>
+                    </div>
+                </div>
+                <div class="fleet-grid">
+                    <!-- Indigo Vehicle -->
+                    <article class="fleet-card">
+                        <div class="fleet-card-image">
+                            <img src="/media/minibus-skyblue-right-diagonal.jpeg"
+                                alt="Minibus azzurro della Gioda SAS." />
+                        </div>
+                        <div class="fleet-card-content">
+                            <h3 class="fleet-card-title">Luxury 16 Posti</h3>
+                            <p class="fleet-card-description">Spazio e comfort per gruppi numerosi. Ideale per tour
+                                organizzati e trasferte sportive.</p>
+                        </div>
+                    </article>
+                    <!-- Sky Blue Vehicle -->
+                    <article class="fleet-card">
+                        <div class="fleet-card-image">
+                            <img src="/media/minibus-indigo-left-diagonal.jpeg"
+                                alt="Minibus color indaco della Gioda SAS." />
+                        </div>
+                        <div class="fleet-card-content">
+                            <h3 class="fleet-card-title">Shuttle 7 Posti</h3>
+                            <p class="fleet-card-description">Agile e discreto. Perfetto per trasferimenti aeroportuali
+                                e trasferte aziendali.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section -->
+        <section class="services">
+            <div class="container">
+                <div class="services-header">
+                    <h2 class="services-title">I Nostri Servizi</h2>
+                    <div class="services-divider"></div>
+                </div>
+                <div class="bento-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <span class="material-symbols-outlined icon">celebration</span>
+                        <h4 class="service-card-title">Cerimonie ed Eventi</h4>
+                        <p class="service-card-text">Accompagniamo voi e i vostri ospiti nei momenti più importanti, con
+                            discrezione e eleganza.</p>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card primary col-span-2">
+                        <div class="flex-area">
+                            <span class="material-symbols-outlined icon">flight_takeoff</span>
+                            <div>
+                                <h4 class="service-card-title">Trasferimenti Aeroporti / Stazioni / Porti</h4>
+                                <p class="service-card-text">Servizio door-to-door per tutti i principali scali del Nord
+                                    Italia. Puntualità garantita per ogni vostro imbarco.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card tall row-span-2">
+                        <span class="material-symbols-outlined icon">landscape</span>
+                        <h4 class="service-card-title">Tour Langhe, Roero e Monferrato</h4>
+                        <p class="service-card-text">Esplorate i paesaggi UNESCO con tour personalizzati tra cantine,
+                            borghi e panorami mozzafiato. Pensiamo noi alla guida, voi godetevi il vino.</p>
+                        <div class="service-image-box">
+                            <img alt="Vineyards of Langhe"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYvH29Plr0N3rkGr6xOIIdFU5_XIgDOvnUpLiDPWRAp7yQUU6jVyHgVH-YbcvWD0TE5WkhW3uOCXiUQ0M_HfcQkAu6CjR-J7_Ift7HmnPZaiJR9jDieXybZ5-y7T6dwqNjMnNmudqZRBzLoQ_inftv-KLBcGmGQokhVd1hHB-kkmRhHxckA9Jm9SUp8ihvVnwNS6kbcYSbhsNuZlq91rR1hjKFiGcjPFslxnhFhSC2ctjtWLGFMUu3ia_OcjrKSEwXQp8k6Oz7pc8" />
+                        </div>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="service-card">
+                        <span class="material-symbols-outlined icon">map</span>
+                        <h4 class="service-card-title">Gite e Escursioni</h4>
+                        <p class="service-card-text">Mare, montagna, fiere e pellegrinaggi. Organizziamo trasporti per
+                            ogni vostra destinazione di svago.</p>
+                    </div>
+                    <!-- Service 5 -->
+                    <div class="service-card accent">
+                        <span class="material-symbols-outlined icon">business_center</span>
+                        <h4 class="service-card-title">Transfer Aziendali</h4>
+                        <p class="service-card-text">Soluzioni professionali per meeting, cene aziendali e trasporto
+                            delegazioni. Affidabilità per il vostro business.</p>
+                    </div>
+                    <!-- Service 6 -->
+                    <div class="service-card">
+                        <span class="material-symbols-outlined icon">sports_soccer</span>
+                        <h4 class="service-card-title">Trasferte Sportive</h4>
+                        <p class="service-card-text">Trasporto squadre e tifosi per eventi, tornei e partite in tutta
+                            sicurezza.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Quick Contact Banner -->
+        <section class="container cta-banner">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2 class="cta-title">Hai bisogno di un preventivo?</h2>
+                    <p class="cta-subtitle">Contattaci per una quotazione personalizzata senza impegno.</p>
+                </div>
+                <a class="btn-email" href="mailto:marcogioda@gmail.com">Invia Email</a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">Gioda SAS</div>
+                <p class="footer-copy">© 2024 Gioda SAS. Ferrere, Asti.</p>
+            </div>
+            <div class="footer-links">
+                <a class="footer-link" href="tel:+393385072211">Phone: +39 338 507 2211</a>
+                <a class="footer-link" href="mailto:marcogioda@gmail.com">Email: marcogioda@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileNav = document.getElementById('mobileNav');
+        const menuIcon = menuBtn.querySelector('.material-symbols-outlined');
+
+        menuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('active');
+            const isActive = mobileNav.classList.contains('active');
+
+            // Switch between hamburger and close icon
+            menuIcon.textContent = isActive ? 'close' : 'menu';
+
+            // Prevent body scroll when menu is open
+            document.body.style.overflow = isActive ? 'hidden' : 'auto';
+        });
+
+        // Close menu when clicking links
+        mobileNav.querySelectorAll('.nav-link, .btn-contact').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNav.classList.remove('active');
+                menuIcon.textContent = 'menu';
+                document.body.style.overflow = 'auto';
+            });
+        });
+    </script>
+</body>
+
+</html>

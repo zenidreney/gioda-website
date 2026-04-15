@@ -124,6 +124,7 @@
 
         .btn-contact {
             background-color: var(--primary);
+            text-decoration: none;
             color: var(--on-primary);
             padding: 0.5rem 1.5rem;
             border-radius: var(--radius-xl);
